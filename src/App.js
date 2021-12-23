@@ -12,7 +12,7 @@ function App() {
     audio: false,
     video: {
       width: 720,
-      height: 750,
+      height: 680,
       facingMode: (mode ? 'user' : 'environment')
     }
   }
@@ -84,7 +84,7 @@ function App() {
     // const height = video.videoHeight
     const ctx = canvas.getContext('2d')
     if(color==='gradient'){
-      const my_gradient = ctx.createLinearGradient(0, 0, 720, 750)
+      const my_gradient = ctx.createLinearGradient(0, 0, 720, 680)
       my_gradient.addColorStop(0, "#FFFF66")
       my_gradient.addColorStop(0.5, "#f8037e")
       my_gradient.addColorStop(1, "#036bd3")
